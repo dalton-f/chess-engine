@@ -8,6 +8,8 @@ This project is built with:
 - PostCSS with Tailwind 4
 - Laravel Mix
 
+To use this chess engine, visit the [website](https://dalton-f.github.io/chess-engine/) and enter a FEN string to get started.
+
 ## Roadmap
 
 To view a full roadmap for this project, please visit the public [trello board](https://trello.com/b/dl1cTb4U/chess-engine).
