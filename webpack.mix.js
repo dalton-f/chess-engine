@@ -12,4 +12,6 @@ mix.webpackConfig({
 });
 
 // Basic Mix setup
-mix.js("src/js/app.js", "dist/js").postCss("src/css/app.pcss", "dist/css");
+mix
+  .js("src/js/app.js", "dist/js")
+  .postCss("src/css/app.pcss", "dist/css", [require("@tailwindcss/postcss")]);
